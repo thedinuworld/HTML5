@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style type="text/css">
+    	div{
+    		background-color: seagreen; width: 400px;padding: 10px;color: white;margin:5px;
+    	}
+
+
+    </style>
+</head>
+<body>
+
+
+    <!-- input and label -->
+    <div>
+    	<form method="post" action="">
+    		<label for="username">User Name:</label>
+    		<input type="text" name="username"><br><br>
+    		<label for="pass">Password:</label>
+    		<input type="password" name="pass"><br><br>
+    		<input type="submit" name="submit">
+    		<input type="reset" name="reset">
+
+    	</form>
+
+    </div><br><br>
+<!--form using table-->
+<div>
+	<form>
+		<table>
+			<tr>
+				<td><label for="username">User Name:</label></td>
+				<td><input type="text" name="username"></td>
+			</tr>
+		<tr>
+			<td><label for="pass">Password:</label></td>
+			<td><input type="password" name="pass"></td>
+
+		</tr>
+
+				<tr>
+					<td><input type="submit" name="submit"></td>
+    				<td><input type="reset" name="reset"></td>
+				</tr>
+
+			
+		</table>
+
+
+	</form>
+
+</div>
+
+
+
+
+
+    <!-- Select and Option -->
+    <div>
+    	<form>
+    		<select id="lang">
+    			<label for="lang">Select any Language</label>
+    			<option>JQuery</option>
+    			<option>HTML</option>
+    			<option>CSS</option>
+    			<option>Javascript</option>
+    			<option>Bootstrap</option>
+    		</select>
+
+    	</form>
+
+    </div>
+
+    <!-- Textarea -->
+
+    <div>
+    	<form>
+    		<label for="msg">Enter Massage</label>
+    		<textarea id="msg" rows="4" cols="24">
+    			
+    		</textarea>
+    	</form>
+    </div>
+
+    <!-- button -->
+
+    <div>
+    	<form>
+    		<label>User Name</label>
+    		<input type="text" name="in"><br>
+    		<input type="submit" name="sub" value="subt">
+    	</form>
+
+    </div>
+
+    <!-- datalist -->
+
+<div>
+	<input list="techno" name="tec">
+	<datalist id="techno">
+		<option value="HTML"></option>
+		<option value="CSS"></option>
+		<option value="Javascript"></option>
+		<option value="Bootstrap"></option>
+		<option value="JQuery"></option>
+		<option value="AngularJs"></option>
+		not b t w f smn
+
+	</datalist>
+	
+
+</div>
+
+
+</body>
+</html>

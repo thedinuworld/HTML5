@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Attributes</title>
+    <style type="text/css">
+    	div{
+
+    		background-color: orange;
+    		color: white;
+    		padding:5px;
+    		width:400px; 
+    		margin:10px;
+    	}
+    </style>
+</head>
+<body>
+
+    <!-- input attributes value , readonly , size , rows , cols-->
+
+    <h2>Value attribute</h2>
+    <div>
+    	<form>
+    		<label>User Name</label>
+    			<input type="text" name="" value="Dinu">
+    	</form>
+
+    </div>
+
+    <h2>readonly attribute</h2>
+    <div>
+    	<form>
+    		<label>User Name</label>
+    			<input type="text" name="" value="Dinu" readonly="20">
+    			<br>
+    			<input type="text" name="" value="9405249531" disabled="true">
+    	</form>
+
+    </div>
+
+    <h2>Size attribute</h2>
+      <div>
+    	<form>
+    		<label>User Name</label>
+    			<input type="text" name="" value="Dinu" readonly="20" size="10">
+    			<br>
+    			<input type="text" name="" value="9405249531" disabled="true" size="25">
+    	</form>
+
+    </div>
+
+<h2>cols and rows</h2>
+
+  <div>
+    	<form>
+    		<label>your massage</label>
+    			<textarea rows="4" cols="7">
+
+    				</textarea>
+    	</form>
+
+    </div>
+
+    <h2>Required Field</h2>
+      <div>
+    	<form>
+    		<label>User Name</label>
+    			<input type="text" name=""  required="true" >
+    			
+    			<input type="submit" name="" value="submit" >
+    	</form>
+
+    </div>
+    <h2>HTML5 Attributes</h2>
+
+    <!-- HTML 5 Form Attributes required ,
+    no-validate , autofocus , pattern , placeholder -->
+
+    <p>no-validate</p>
+
+    <div>
+    	
+    	<form novalidate="">
+    		<label>Your Email</label>
+    		<input type="email" name="">
+    		<input type="submit" name="" value="submit">
+    	</form>
+    </div>
+
+ <p>autofocus</p>
+
+    <div>
+    	
+    	<form>
+    		<label>Your Email</label>
+    		<input type="text" name="" autofocus="true"><br>
+    		<label>Password</label>
+    		<input type="password" name="">
+    	</form>
+    </div>
+
+     <p>pattern google-html5 pattern.com/fb usernme or twitter username</p>
+
+    <div>
+    	
+    	<form>
+    		<label>twitter username</label>
+    		<input type="text" name="" pattern="paste here code">
+    		<input type="submit" name="" value="submit">
+    	</form>
+    </div>
+
+    <h2>Paceholder</h2>
+     
+
+    <div>
+    	
+    	<form>
+    		<input type="text" name=""  placeholder="enter username"><br><br>
+    		<input type="password" name=""  placeholder="enter username"><br><br>
+    		<input type="submit" name="">
+    	</form>
+    </div>
+</body>
+</html>
+16 html 15th
